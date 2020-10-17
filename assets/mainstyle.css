@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Shanti';
     background-color: rgb(255, 233, 199);
     color: rgb(34, 17, 50);
     margin: 0;
@@ -13,6 +13,7 @@ hr {
 }
 
 .header {
+    font-family: 'Yatra One';
     display: flex;
     flex-direction: column;
     background-color: rgb(125, 174, 100);
