@@ -26,6 +26,7 @@ a {
 /* navigation  */
 
 .nav {
+    font-family: 'Yatra One';
     display: flex;
     flex-direction: row;
     align-items: center;
