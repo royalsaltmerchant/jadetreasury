@@ -85,3 +85,19 @@ a {
     margin: auto;
     width: 400px;
 }
+
+/* media query */
+
+ @media screen and (min-width: 600px) {
+     .nav {
+         justify-content: center;
+     }
+     .nav-item {
+         margin-left: 20px;
+         margin-right: 20px;
+     }
+     .nav-item-special {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+ }
