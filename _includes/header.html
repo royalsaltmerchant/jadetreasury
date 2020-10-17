@@ -2,12 +2,25 @@
     <h1 class="title">{{ site.title }}</h1>
 </header>
 <hr>
-<br>
 <div class="nav">
-    <a href="{{ site.baseurl }}/index.html">Home</a>
-    <a href="{{ site.baseurl }}/about.html">About</a>
-    <a href="{{ site.baseurl }}/articles.html">Articles</a>
-    <a href="{{ site.baseurl }}/links.html">Links</a>
+    <div class="nav-item"><a href="{{ site.baseurl }}/index.html">Home</a></div>
+    <div class="nav-item"><a href="{{ site.baseurl }}/about.html">About</a></div>
+    <div class="nav-item-special"><a href="{{ site.baseurl }}/articles.html">Articles</a>
+    <div class="dropdown">
+        <div class="dropdown-nav">
+            <a>new</a>
+        </div>
+        <div class="dropdown-nav">
+            <a>new</a>
+        </div>
+        <div class="dropdown-nav">
+            <a>new</a>
+        </div>
+        <div class="dropdown-nav">
+            <a>new</a>
+        </div>
+    </div>
+    </div>
+    <div class="nav-item"><a href="{{ site.baseurl }}/links.html">Links</a></div>
 </div>
-<br>
 <hr>

@@ -19,11 +19,67 @@ hr {
     background-color: rgb(125, 174, 100);
 }
 
+a {
+    text-decoration: none;
+}
+
+/* navigation  */
+
 .nav {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-evenly;
+    margin: -1px;
 }
+
+.nav-item {
+    background-color: rgb(228, 186, 78);
+    width:60px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.nav-item-special {
+    background-color: rgb(228, 186, 78);
+    width:60px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+}
+
+.dropdown-nav {
+    margin: -10px;
+    margin-top: 10px;
+    background-color: #d2eaf7;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 60px;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1;  
+}
+
+.nav-item:hover {
+    background-color: rgb(68, 116, 177);
+}
+
+.nav-item-special:hover {
+    background-color: rgb(68, 116, 177);
+}
+
+.dropdown-nav:hover {
+    background-color: rgb(68, 116, 177);
+}
+
+.nav-item-special:hover .dropdown {
+    display: block;
+}
+
+/* end navigation */
 
 .section-one {
     margin: auto;
