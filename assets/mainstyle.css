@@ -1,7 +1,18 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: beige;
+    background-color: rgb(255, 216, 118);
+    color: rgb(34, 17, 50);
     margin: 0;
     padding: 0;
     text-align: center;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.section-one {
+    width: 400px;
 }
