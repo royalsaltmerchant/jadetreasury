@@ -1,10 +1,21 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(255, 228, 159);
+    background-color: rgb(255, 233, 199);
     color: rgb(34, 17, 50);
     margin: 0;
     padding: 0;
     text-align: center;
+}
+
+hr {
+    margin: 0;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(125, 174, 100);
 }
 
 .nav {
