@@ -4,9 +4,11 @@
     {% include mainhead.html %}
     <body>
         {% include header.html %}
+        <div onclick="outsideClick()">
         {{ content }}
         <br>
         <hr>
         {% include footer.html %}
+        </div>
     </body>
 </html>
