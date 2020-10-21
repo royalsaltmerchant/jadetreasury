@@ -35,7 +35,6 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin: -1px;
 }
 
 .nav-item {
@@ -43,7 +42,7 @@ a {
     background-color: rgb(228, 186, 78);
     border-radius: 10px;
     padding: 10px;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .nav-item-special {
@@ -51,7 +50,7 @@ a {
     background-color: rgb(228, 186, 78);
     border-radius: 10px;
     padding: 10px;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .dropdown {
