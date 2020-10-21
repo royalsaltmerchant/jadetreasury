@@ -41,19 +41,17 @@ a {
 .nav-item {
     color: rebeccapurple;
     background-color: rgb(228, 186, 78);
-    width:60px;
     border-radius: 10px;
-    padding: 20px;
-    font-size: 18px;
+    padding: 10px;
+    font-size: 25px;
 }
 
 .nav-item-special {
     color: rebeccapurple;
     background-color: rgb(228, 186, 78);
-    width:60px;
     border-radius: 10px;
-    padding: 20px;
-    font-size: 18px;
+    padding: 10px;
+    font-size: 25px;
 }
 
 .dropdown {
@@ -92,12 +90,12 @@ a {
 
 .section-one {
     margin: auto;
-    width: 400px;
+    width: 350px;
 }
 
 /* media query */
 
- @media screen and (min-width: 600px) {
+ @media screen and (min-width: 500px) {
      .section-one {
          display: flex;
          flex-direction: column;
