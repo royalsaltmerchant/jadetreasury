@@ -1,12 +1,11 @@
 <header class="header">
     <h1 class="title">{{ site.title }}</h1>
 </header>
-<hr>
 <div class="nav">
     <div class="nav-item"><a href="{{ site.baseurl }}/index.html">Home</a></div>
     <div class="nav-item"><a href="{{ site.baseurl }}/about.html">About</a></div>
-    <div class="nav-item-special" id="nav-item-special" onclick="articles()"><a>Articles</a>
-    <div class="dropdown" id="dropdown">
+    <div class="nav-item" onclick="articles()"><a href="{{ site.baseurl }}/articles.html">Articles</a>
+    <!-- <div class="dropdown" id="dropdown">
         <div class="dropdown-nav">
             <a href="{{ site.baseurl }}/articles/zen_articles.html">Zen</a>
         </div>
@@ -19,8 +18,7 @@
         <div class="dropdown-nav">
             <a>something</a>
         </div>
-    </div>
+    </div> -->
     </div>
     <div class="nav-item"><a href="{{ site.baseurl }}/links.html">Links</a></div>
 </div>
-<hr>
