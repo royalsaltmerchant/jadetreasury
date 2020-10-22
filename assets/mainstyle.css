@@ -4,12 +4,13 @@ body {
     color: rgb(34, 17, 50);
     margin: 0;
     padding: 0;
-    text-align: center;
+    /* text-align: center; */
     font-size: 18px;
     text-shadow: 0.8px 0.8px rgb(196, 196, 196);
 }
 
 a {
+    color: rebeccapurple;
     text-decoration: none;
 }
 
@@ -37,6 +38,7 @@ p {
 .header {
     font-family: 'Yatra One';
     text-shadow: 1px 1px rgb(196, 196, 196);
+    text-align: center;
     display: flex;
     flex-direction: column;
     background-color: rgba(28, 94, 28, 0.639);
@@ -79,21 +81,25 @@ p {
 /* end navigation */
 
 .section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
     margin: auto;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 700px;
+    
+}
+
+.footer {
+    text-align: center;
 }
 
 /* media query */
 
  @media screen and (min-width: 500px) {
-     .section-one {
-         display: flex;
-         flex-direction: column;
-         flex-wrap: wrap;
-         padding-left: 50px;
-         padding-right: 50px;
-         width: auto;
-         max-width: 800px;
-     }
      .nav {
          justify-content: center;
      }
