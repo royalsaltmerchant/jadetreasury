@@ -49,6 +49,7 @@ a:active {
 
 .nav-item {
     color: rebeccapurple;
+    padding: 10px;
     text-shadow: 0.8 0.8 rgb(41, 41, 41);
     font-size: 23px;
     border-bottom: 3px solid transparent;
