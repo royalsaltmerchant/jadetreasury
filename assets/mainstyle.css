@@ -1,7 +1,7 @@
 body {
     font-family: 'Shanti';
     background-color: rgb(255, 233, 199);
-    color: rgb(34, 17, 50);
+    color: rgb(49, 19, 77);
     margin: 0;
     padding: 0;
     /* text-align: center; */
@@ -22,18 +22,18 @@ a:active {
     color: rgb(228, 68, 0);
 }
 
+h2 {
+    color: rgb(162, 50, 2);
+}
+
+/* h3 {
+    color: rgb(113, 49, 0);
+} */
+
 p {
     margin: 0;
     line-height: 200%;
 }
-
-/* hr {
-    border: none;
-    background-color: lightsteelblue;
-    margin: 0;
-    width: 100%;
-    height: 5px;
-} */
 
 .header {
     font-family: 'Yatra One';
@@ -42,7 +42,7 @@ p {
     display: flex;
     flex-direction: column;
     background-color: rgba(28, 94, 28, 0.639);
-    box-shadow: 3px 3px 5px 6px rgb(103, 103, 103);
+    box-shadow: 3px 3px 5px 5px rgb(127, 115, 138);
 }
 
 /* navigation  */
