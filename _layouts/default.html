@@ -3,12 +3,14 @@
 <html>
     {% include mainhead.html %}
     <body>
+        <button id="topscroll" onclick="scrollToTop()">Top</button>
         {% include header.html %}
-        <div onclick="outsideClick()">
+        <div>
         {{ content }}
         <br>
         <hr>
         {% include footer.html %}
         </div>
     </body>
+    <script src="{{ site.baseurl }}/assets/script.js"></script>
 </html>
