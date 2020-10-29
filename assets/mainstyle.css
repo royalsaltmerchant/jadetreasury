@@ -120,6 +120,25 @@ img:hover {
 	background: rgb(208, 134, 6);
 }
 
+/* The progress container (grey background) */
+.progress-container {
+    display: none;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 5px;
+    background: #ccc;
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+    display: none;
+    height: 5px;
+    background: #4caf50;
+    width: 0%;
+  }
+
 /* content */
 
 .section-one {
