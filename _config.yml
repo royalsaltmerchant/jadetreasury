@@ -29,9 +29,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   In China, and most of Southern Asia in general, there is an old tradition of mendicants going into the caves and grottos of mountains, as well as building simple grass huts there, in order to seek solitude and meditate on the nature of mind.
   Our groups project is inspired by those projects of the ancient medicants. So we’ve made this website as a way to share the results and scraps of our mutual efforts with the Internet. We hope you’ll find something of value for yourself among our offerings here.
   Welcome to the Jade Treasury.
-  (Written by Green Sage, Edited by Royal Salt Merchant)
-  baseurl: "" # the subpath of your site, e.g. /blog
-  url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 Build settings:
 theme: minima
