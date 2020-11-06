@@ -20,11 +20,18 @@
 
 title: Jade Treasury
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+  This website is an extension of a group called "The Jade Palace". The Jade Palace is a project started by a few like-minded individuals who met through the Zen forum over at www.reddit.com/r/zen. (https://www.reddit.com/r/zen/)
+  Now a bit about ourselves
+  We are a small group focused on inter-personal learning. Our core focus regards the study of Zen, but our group’s design is to serve as a resource for its members, so we also have a mission that is interested in more general matters of humanism, spirituality, and personal well-being as well.
+  In the Zen literature, one finds the following story
+  A monk, having received an awakening blow from Master YunMen, declared
+  "Hereafter I'll go to a place where there are no human hearths and will build myself a grass hut. I won't grow a single grain of rice nor store a single bunch of vegetables, and I will receive the sages that will come and go from all directions. I'll pull out the nails and pegs for them, tear off their greasy hats, strip off their stinking jackets, and I'll see to it that they get clean and free and become patch-robed monks!”_
+  In China, and most of Southern Asia in general, there is an old tradition of mendicants going into the caves and grottos of mountains, as well as building simple grass huts there, in order to seek solitude and meditate on the nature of mind.
+  Our groups project is inspired by those projects of the ancient medicants. So we’ve made this website as a way to share the results and scraps of our mutual efforts with the Internet. We hope you’ll find something of value for yourself among our offerings here.
+  Welcome to the Jade Treasury.
+  (Written by Green Sage, Edited by Royal Salt Merchant)
+  baseurl: "" # the subpath of your site, e.g. /blog
+  url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 Build settings:
 theme: minima
