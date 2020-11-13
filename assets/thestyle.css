@@ -182,7 +182,7 @@ img:hover {
 }
 
 .date-button {
-    width: fit-content;
+    width: 30%;
     color: rebeccapurple;
     font: inherit;
     border-radius: 30px;
