@@ -49,3 +49,14 @@ console.log(myLocation)
 var locationDiv = document.getElementById('location')
 locationDiv.innerHTML = `Blog --> ${myLocation}`
 
+//show dates
+function showDates() {
+   const dates = document.getElementById('dates')
+   console.log(dates.style.display)
+   if(dates.style.display !== 'block') {
+      console.log(true)
+      dates.style.display = 'block'
+   } else {
+      dates.style.display = 'none'
+   }
+}
