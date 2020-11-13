@@ -182,7 +182,7 @@ img:hover {
 }
 
 .date-button {
-    width: 30%;
+    width: 50%;
     color: rebeccapurple;
     font: inherit;
     border-radius: 30px;
@@ -198,10 +198,6 @@ img:hover {
 .date-button:active {
     background-color: rgb(228, 68, 0);
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.date-button h3 {
-    font-size: 30px;
 }
 
 /* footer */
