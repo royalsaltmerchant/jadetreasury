@@ -169,6 +169,8 @@ img:hover {
 
 #dates {
     display: none;
+    flex-direction: column;
+    justify-content: center;
     font-size: 30px;
     line-height: 200%;
 }

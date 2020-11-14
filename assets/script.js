@@ -53,9 +53,9 @@ locationDiv.innerHTML = `Blog --> ${myLocation}`
 function showDates() {
    const dates = document.getElementById('dates')
    console.log(dates.style.display)
-   if(dates.style.display !== 'block') {
+   if(dates.style.display !== 'flex') {
       console.log(true)
-      dates.style.display = 'block'
+      dates.style.display = 'flex'
    } else {
       dates.style.display = 'none'
    }
